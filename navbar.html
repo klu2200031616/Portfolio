@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Navbar</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+
+    /* Navbar Styles */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #004080;
+      padding: 10px 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar h1 {
+      color: #fff;
+      font-size: 24px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      padding: 10px 15px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      border-radius: 5px;
+    }
+
+    /* Hover Effects */
+    .nav-links a:hover {
+      background-color: #ffbf00;
+      color: #004080;
+    }
+
+    /* Active Link Styling */
+    .nav-links a.active {
+      background-color: #ffbf00;
+      color: #004080;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <h1>My Portfolio</h1>
+    <div class="nav-links">
+      <a href="./index.html">Home</a>
+      <a href="./skills.html">Skills</a>
+      <a href="./projects.html">Projects</a>
+      <a href="./certifications.html">Certifications</a>
+    </div>
+  </nav>
+
+  
+</body>
+</html>

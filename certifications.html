@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certifications</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 700px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            display: flex;
+            align-items: center;
+            margin: 15px 0;
+            padding: 10px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-right: 15px;
+            border: 2px solid #ddd;
+        }
+        .certification-text {
+            flex: 1;
+        }
+        .view-button {
+            text-decoration: none;
+            color: white;
+            background-color: #007bff;
+            padding: 8px 15px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .view-button:hover {
+            background-color: #0056b3;
+        }
+           /* Navbar Styles */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #004080;
+      padding: 10px 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar h1 {
+      color: #fff;
+      font-size: 24px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      padding: 10px 15px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      border-radius: 5px;
+    }
+
+    /* Hover Effects */
+    .nav-links a:hover {
+      background-color: #ffbf00;
+      color: #004080;
+    }
+
+    /* Active Link Styling */
+    .nav-links a.active {
+      background-color: #ffbf00;
+      color: #004080;
+    }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h1>My Portfolio</h1>
+        <div class="nav-links">
+          <a href="./index.html">Home</a>
+          <a href="./skills.html">Skills</a>
+          <a href="./projects.html">Projects</a>
+          <a href="./certifications.html">Certifications</a>
+        </div>
+      </nav>
+    <div class="container">
+        <h2>Certifications</h2>
+        <ul>
+            <li>
+                <img src="./images/red-hat-certified-enterprise-application-developer.png" alt="Red Hat Certification">
+                <div class="certification-text">Red Hat Certified Enterprise Application Developer</div>
+                <a href="./certificates/Red_Hat_Certified_Enterprise_Application_Developer_Badge20241001-7-oh07j.pdf" class="view-button" target="_blank">View</a>
+            </li>
+            <li>
+                <img src="./images/automation_anywhere.png" alt="Automation Anywhere Certification">
+                <div class="certification-text">Automation Anywhere Certified Essentials RPA Professional (Automation 360) – 2023</div>
+                <a href="./certificates/automation_Anywhere.pdf" class="view-button" target="_blank">View</a>
+            </li>
+            <li>
+                <img src="./images/aws-certified-cloud-practitioner.png" alt="AWS Certification">
+                <div class="certification-text">AWS Certified Cloud Practitioner</div>
+                <a href="./certificates/AWS Certified Cloud Practitioner certificate.pdf " class="view-button" target="_blank">View</a>
+            </li>
+            <li>
+                <img src="./images/lingua.png" alt="Linguaskill Certification">
+                <div class="certification-text">B2 grade in the Linguaskill test conducted by Cambridge English</div>
+                <a href="./certificates/linguaskills_certificate.pdf" class="view-button" target="_blank">View</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

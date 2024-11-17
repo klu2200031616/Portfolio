@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Technical Skills</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background: #f4f7fc;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Navbar Styles */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #004080;
+      padding: 10px 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar h1 {
+      color: #fff;
+      font-size: 24px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      padding: 10px 15px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      border-radius: 5px;
+    }
+
+    .nav-links a:hover {
+      background-color: #ffbf00;
+      color: #004080;
+    }
+
+    /* Container and Section Styles */
+    .container {
+      max-width: 1200px;
+      margin: 50px auto;
+      padding: 20px;
+      background: #ffffff;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #004080;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #666;
+    }
+
+    .skills-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .skill-card {
+      background: #004080;
+      color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .skill-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+
+    .skill-card h2 {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+      color: #ffbf00;
+    }
+
+    .skill-card ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .skill-card ul li {
+      margin: 10px 0;
+      font-size: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    footer a {
+      color: #004080;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <h1>My Portfolio</h1>
+    <div class="nav-links">
+      <a href="./index.html">Home</a>
+      <a href="./skills.html" class="active">Skills</a>
+      <a href="./projects.html">Projects</a>
+      <a href="./certifications.html">Certifications</a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container">
+    <header>
+      <h1>Technical Skills</h1>
+      <p>Here's a showcase of my technical expertise and tools I excel at.</p>
+    </header>
+
+    <div class="skills-section">
+      <div class="skill-card">
+        <h2>Programming Languages</h2>
+        <ul>
+          <li>C</li>
+          <li>Java</li>
+          <li>Python</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h2>Full Stack Technologies</h2>
+        <ul>
+          <li>Django</li>
+          <li>Spring Boot</li>
+          <li>React.js</li>
+          <li>Node.js</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h2>Data Structures & Algorithms</h2>
+        <ul>
+          <li>Array, Linked List, Stack, Queue, Tree, Graph</li>
+          <li>Sorting and Searching Algorithms</li>
+          <li>Dynamic Programming</li>
+          <li>Greedy Algorithms</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h2>Basic Machine Learning</h2>
+        <ul>
+          <li>Linear Regression</li>
+          <li>Logistic Regression</li>
+          <li>K-Nearest Neighbors (KNN)</li>
+          <li>Decision Trees</li>
+          <li>Clustering (K-Means, Hierarchical)</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h2>Databases</h2>
+        <ul>
+          <li>MySQL</li>
+          <li>MongoDB</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h2>Other Tools</h2>
+        <ul>
+          <li>Git</li>
+          <li>Automation Anywhere</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>Want to learn more about me? <a href="mailto:your-email@example.com">Contact me</a></p>
+  </footer>
+</body>
+</html>
